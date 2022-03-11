@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap');
 
-*, *::before, *::after {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -103,8 +103,7 @@ header {
     background-image: linear-gradient( rgba(102, 102, 102, 0.3) ,rgba(102, 102, 102, 0.4)), url("assets/maksim-shutov-pUa1On18Jno-unsplash.jpg");
     background-size: cover;
     background-position: center center;
-    background-repeat: no-repeat; 
-    background-attachment: fixed;   
+    background-repeat: no-repeat;  
 }
 
 .home-text {
@@ -361,6 +360,7 @@ header {
 
 .video-img {
     width: 70%;
+    height: 100%;
     border-radius: 0.5em;
     margin: 0 auto;
 }
@@ -374,7 +374,7 @@ header {
 }
 
 .video-btn img {
-    width: 18%;
+    width: 12%;
     transition: all 0.3s ease-in-out;
 }
 
